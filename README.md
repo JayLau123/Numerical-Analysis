@@ -1,5 +1,7 @@
 # Numerical-Analysis
-### A brief introduction to Numerical Analysis based on MATLAB and reference book: R. Burden and J. Faires. Numerical Analysis. Cengage Learning, 2010.
+### A brief introduction to Numerical Analysis based on MATLAB
+
+### Reference book: R. Burden and J. Faires. Numerical Analysis. Cengage Learning, 2010.
 
 
 ### Main topics:
