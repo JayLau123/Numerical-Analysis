@@ -13,7 +13,7 @@ Reading recommendation: 2.1-2.4
 topic 3: Polynomial interpolation.
 Reading recommendation: 3.1-3.4
 
-topic 4: Complete polynomial interpolation. Midterm I on Wednesday, April 20.
+topic 4: Complete polynomial interpolation.
 
 topic 5: Numerical differentiation and integration techniques.
 Reading recommendation: 4.1-4.3
