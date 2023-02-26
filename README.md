@@ -1,5 +1,5 @@
 # Numerical-Analysis
-### A brief introduction to Numerical Analysis based on MATLAB
+### A brief introduction to Numerical Analysis based on MATLAB and Fortran.
 
 ### Reference book: R. Burden and J. Faires. Numerical Analysis. Cengage Learning, 2010.
 
@@ -29,3 +29,16 @@ topic 8: Solving linear systems of equations & matrix inversion.
 Reading recommendation: 6.1, 6.3, 6.5
 
 topic 9: Iterative methods to solve linear system.
+
+### Computational physics topics(Fortran):
+
+Lagrange polynomial 分段拉氏插值公式
+
+Successive Over Relaxation iterative Method for PDE超松弛迭代法求偏微分方程
+
+Runge-Kutta methods for ODE龙格库塔法求常微分方程
+
+Monte Carlo method for integration
+
+Successive Over Relaxation iterative Method for PDE超松弛迭代法求偏微分方程2
+
