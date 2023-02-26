@@ -30,7 +30,7 @@ Reading recommendation: 6.1, 6.3, 6.5
 
 topic 9: Iterative methods to solve linear system.
 
-### Computational physics topics(Fortran):
+### Computational physics topics(+Fortran examples):
 
 Lagrange polynomial 分段拉氏插值公式
 
@@ -41,4 +41,5 @@ Runge-Kutta methods for ODE龙格库塔法求常微分方程
 Monte Carlo method for integration
 
 Successive Over Relaxation iterative Method for PDE超松弛迭代法求偏微分方程2
+
 
