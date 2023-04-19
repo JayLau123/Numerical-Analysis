@@ -80,7 +80,7 @@ FEniCS is primarily written in Python and C++, which makes it highly extensible 
 
 FEniCS is widely used in various fields, including fluid dynamics, solid mechanics, electromagnetics, heat transfer, and more. It is an excellent tool for researchers, engineers, and students who want to solve complex PDEs.
 
-**Key features of FEniCS include: **
+**Key features of FEniCS include:**
 
 -Automatic code generation: Users can define the PDEs symbolically, and FEniCS will generate the corresponding finite element code.
 
@@ -92,4 +92,24 @@ FEniCS is widely used in various fields, including fluid dynamics, solid mechani
 
 -Interoperability: FEniCS can be used with other popular scientific computing libraries and tools, such as NumPy, SciPy, and MATLAB.
 
+### Installation
+
+Here is how you can install FEniCS using Docker on mac OS X:
+
+1. Install Docker Desktop for Mac from the official website: https://www.docker.com/products/docker-desktop/
+
+2. Once Docker Desktop is installed and running, open a Terminal and pull the FEniCS Docker image
+
+    docker pull quay.io/fenicsproject/stable
+    
+3. Run the FEniCS Docker container
+
+    docker run -ti -v $(pwd):/home/fenics/shared -w /home/fenics/shared --name fenics-container quay.io/fenicsproject/stable
+    
+This command starts a FEniCS Docker container, mounts the current working directory to the container's shared folder, and sets the working directory inside the container to the shared folder. Now you can use FEniCS inside the Docker container. To exit the container, type exit.
+
+4. To restart the FEniCS container later, use the following command
+
+    docker start -ai fenics-container
+    
 
