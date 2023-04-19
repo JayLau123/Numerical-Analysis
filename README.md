@@ -59,7 +59,7 @@ FEniCS is widely used in various fields, including fluid dynamics, solid mechani
 
 ### Installation
 
-Here is how you can install FEniCS using Docker on mac OS X:
+Docker method provides better isolation and consistency, here is how you can install FEniCS using Docker on **mac OS X**:
 
 1. Install Docker Desktop for Mac from the official website: https://www.docker.com/products/docker-desktop/
 
