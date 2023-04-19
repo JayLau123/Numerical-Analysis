@@ -57,26 +57,26 @@ The FEA process involves discretizing the domain of the problem into smaller, si
 
 **Pre-processing:**
 
-a. Define the geometry of the problem.
-b. Discretize the geometry into finite elements.
-c. Assign material properties to the elements.
-d. Apply boundary conditions (such as constraints and loads).
+    a. Define the geometry of the problem.
+    b. Discretize the geometry into finite elements.
+    c. Assign material properties to the elements.
+    d. Apply boundary conditions (such as constraints and loads).
 
 **Formulation:**
 
-a. Develop the governing equations (usually PDEs) for the problem.
-b. Choose an appropriate interpolation function (shape function) to represent the unknown variables within each element.
-c. Apply the finite element method to the governing equations, which typically involves integrating the equations over each element and assembling them into a global system of equations.
+    a. Develop the governing equations (usually PDEs) for the problem.
+    b. Choose an appropriate interpolation function (shape function) to represent the unknown variables within each element.
+    c. Apply the finite element method to the governing equations, which typically involves integrating the equations over each element and assembling them into a global system of equations.
 
 **Solution:**
 
-a. Solve the global system of equations to obtain the values of the unknown variables at the nodes.
-b. Use the interpolation functions to compute the unknown variables at any point within the elements.
+    a. Solve the global system of equations to obtain the values of the unknown variables at the nodes.
+    b. Use the interpolation functions to compute the unknown variables at any point within the elements.
 
 **Post-processing:**
 
-a. Analyze and visualize the results, such as displacements, stresses, or temperatures.
-b. Perform additional calculations, such as error estimation or optimization.
+    a. Analyze and visualize the results, such as displacements, stresses, or temperatures.
+    b. Perform additional calculations, such as error estimation or optimization.
 
 FEA is a powerful tool that allows engineers and scientists to predict the behavior of structures, materials, and systems under various conditions. It has numerous applications, including heat transfer, fluid flow, and electromagnetics.
 
