@@ -45,7 +45,7 @@ Monte Carlo method for integration
 
 Successive Over Relaxation iterative Method for PDE超松弛迭代法求偏微分方程2
 
-## Part 3: Finite element analysis
+## Part 3: Finite element analysis(FEA)
 
 Finite Element Analysis (FEA) is a **numerical technique** used to solve complex engineering/scientific problems involving **partial differential equations (PDEs)**. It is widely employed in various fields such as physics, chemistry, and materials.
 
