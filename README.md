@@ -1,43 +1,8 @@
 # Numerical-Analysis
 
-## Part 1: Course summary
+### A brief introduction to Numerical Analysis based on Python, MATLAB, and Fortran.
 
-### A brief introduction to Numerical Analysis based on MATLAB and Fortran.
-
-### Reference book: R. Burden and J. Faires. Numerical Analysis. Cengage Learning, 2010.
-
-
-### Main topics:
-
-        topic 1: Introduction to MATLAB & algorithms.
-        Reading recommendation: 1.2, 1.3.
-        topic 2: Algorithms for finding a function’s zeros.
-        Reading recommendation: 2.1-2.4
-        topic 3: Polynomial interpolation.
-        Reading recommendation: 3.1-3.4
-        topic 4: Complete polynomial interpolation.
-        topic 5: Numerical differentiation and integration techniques.
-        Reading recommendation: 4.1-4.3
-        topic 6: Initial Value Problems (IVPs).
-        Reading recommendation: 5.2-5.4.
-        topic 7: Complete IVPs.
-        topic 8: Solving linear systems of equations & matrix inversion.
-        Reading recommendation: 6.1, 6.3, 6.5
-        topic 9: Iterative methods to solve linear system.
-
-## Part 2: Computational physics course summary(by Fortran):
-
-Lagrange polynomial 分段拉氏插值公式
-
-Successive Over Relaxation iterative Method for PDE超松弛迭代法求偏微分方程
-
-Runge-Kutta methods for ODE龙格库塔法求常微分方程
-
-Monte Carlo method for integration
-
-Successive Over Relaxation iterative Method for PDE超松弛迭代法求偏微分方程2
-
-## Part 3: Finite element analysis(FEA)
+## Part 1: Finite element analysis(FEA)
 
 Finite Element Analysis (FEA) is a **numerical technique** used to solve complex engineering/scientific problems involving **partial differential equations (PDEs)**. It is widely employed in various fields such as physics, chemistry, and materials.
 
@@ -100,16 +65,48 @@ Here is how you can install FEniCS using Docker on mac OS X:
 
 2. Once Docker Desktop is installed and running, open a Terminal and pull the FEniCS Docker image
 
-    docker pull quay.io/fenicsproject/stable
+        docker pull quay.io/fenicsproject/stable
     
 3. Run the FEniCS Docker container
 
-    docker run -ti -v $(pwd):/home/fenics/shared -w /home/fenics/shared --name fenics-container quay.io/fenicsproject/stable
+        docker run -ti -v $(pwd):/home/fenics/shared -w /home/fenics/shared --name fenics-container quay.io/fenicsproject/stable
     
 This command starts a FEniCS Docker container, mounts the current working directory to the container's shared folder, and sets the working directory inside the container to the shared folder. Now you can use FEniCS inside the Docker container. To exit the container, type exit.
 
 4. To restart the FEniCS container later, use the following command
 
-    docker start -ai fenics-container
+        docker start -ai fenics-container
     
+## Part 2: Course summary
 
+### Reference book: R. Burden and J. Faires. Numerical Analysis. Cengage Learning, 2010.
+
+### Main topics:
+
+        topic 1: Introduction to MATLAB & algorithms.
+        Reading recommendation: 1.2, 1.3.
+        topic 2: Algorithms for finding a function’s zeros.
+        Reading recommendation: 2.1-2.4
+        topic 3: Polynomial interpolation.
+        Reading recommendation: 3.1-3.4
+        topic 4: Complete polynomial interpolation.
+        topic 5: Numerical differentiation and integration techniques.
+        Reading recommendation: 4.1-4.3
+        topic 6: Initial Value Problems (IVPs).
+        Reading recommendation: 5.2-5.4.
+        topic 7: Complete IVPs.
+        topic 8: Solving linear systems of equations & matrix inversion.
+        Reading recommendation: 6.1, 6.3, 6.5
+        topic 9: Iterative methods to solve linear system.
+
+## Part 3: Computational physics course summary(by Fortran):
+
+Lagrange polynomial 分段拉氏插值公式
+
+Successive Over Relaxation iterative Method for PDE超松弛迭代法求偏微分方程
+
+Runge-Kutta methods for ODE龙格库塔法求常微分方程
+
+Monte Carlo method for integration
+
+Successive Over Relaxation iterative Method for PDE超松弛迭代法求偏微分方程2
