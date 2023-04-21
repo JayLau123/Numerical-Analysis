@@ -1,0 +1,5 @@
+Another simple way to install Meep on Mac OS:
+
+Open terminal and type the command:
+
+pip install meep
