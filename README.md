@@ -2,6 +2,20 @@
 
 ### A brief introduction to Numerical Analysis based on Python, MATLAB, and Fortran.
 
+### Background
+
+Numerical analysis is a branch of mathematics that focuses on developing, analyzing, and implementing algorithms to obtain numerical solutions to mathematical problems. These problems often involve continuous variables and may be too complex or otherwise unsuitable for analytical methods, which seek exact solutions using algebraic, geometric, or calculus techniques.
+
+Numerical analysis plays a crucial role in many scientific, engineering, and applied mathematics fields. It helps in solving problems such as finding roots of equations, integrating functions, solving ordinary and partial differential equations, and optimizing functions.
+
+Some key aspects of numerical analysis include:
+
+1. Numerical stability: Ensuring that small errors in the input or intermediate calculations do not lead to significant errors in the final result.
+2. Convergence: Ensuring that the algorithm's iterative process converges to a solution, and analyzing the rate at which it does so.
+3. Efficiency: Developing algorithms that are computationally efficient in terms of time and resources used.
+
+Numerical analysis relies heavily on computers and programming, as these algorithms are typically implemented in software and applied to large datasets or complex problems.
+
 ## Part 1: Finite element analysis(FEA)
 
 Finite Element Analysis (FEA) is a **numerical technique** used to solve complex engineering/scientific problems involving **partial differential equations (PDEs)**. It is widely employed in various fields such as physics, chemistry, and materials.
